@@ -1,0 +1,46 @@
+.main-header{
+    font-size: 45px;
+}
+/* This styles the container holding the buttons */
+.main-container {
+    display: flex; /* Use flexbox to center children */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    min-height: 10vh; /* Full height of the viewport */
+  }
+  
+  /* This styles the direct parent of the buttons */
+  .main-button {
+    display: flex; /* Use flexbox to align buttons */
+    gap: 10px; /* Add space between buttons */
+    /* Add any additional styling for the button container here */
+  }
+  
+  .local-button, .International-button {
+    padding: 20px 50px; /* Add padding inside the buttons */
+    border: none; /* Remove the default border */
+    font-size: 16px; /* Set the font size */
+    border-radius: 9px; /* Rounded corners */
+    cursor: pointer; /* Change mouse cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .local-button {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  .local-button:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+  }
+  
+  .International-button {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 1px solid #000; /* Black border */
+  }
+  
+  .International-button:hover {
+    background-color: #eee; /* Light grey background on hover */
+  }
+  
