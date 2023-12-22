@@ -24,6 +24,23 @@ const Landingpage = () => {
       <div>
         <VehicleSearchForm />
       </div>
+      <div className="process-container">
+      <h2>Getting your dream car is a 3 step process</h2>
+      <div className="steps">
+        <div className="step">
+          <div className="icon">🚗</div> {/* Replace with actual icons */}
+          <p>Select your car</p>
+        </div>
+        <div className="step">
+          <div className="icon">📝</div> {/* Replace with actual icons */}
+          <p>Enquire</p>
+        </div>
+        <div className="step">
+          <div className="icon">💳</div> {/* Replace with actual icons */}
+          <p>Pay</p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
