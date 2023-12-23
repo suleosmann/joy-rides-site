@@ -1,0 +1,56 @@
+.contact {
+    background-color: rgba(127, 255, 212, 0.4); /* Aquamarine with opacity 0.4 */
+    height: 1200px; /* Set the height of the container to full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-wrap {
+    background-color: white; /* White background for the form */
+    padding: 20px; /* Add padding to the form */
+    width: 400px; /* Set the width of the form */
+    height: 1100px; /* Set the height of the form */
+    border-radius: 10px; /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .intro-to-contact {
+    text-align: center; /* Center text in the intro */
+  }
+  
+  .form-wrap {
+    margin-top: 20px; /* Add space between the intro and the form */
+  }
+  
+  .structure {
+    display: grid;
+    gap: 25px;
+  }
+
+  .details{
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .structure input{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+  }
+
+  textarea{
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+  }
+  
+  .submit button{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+  }
+  /* Add any additional styling as needed */
+  
