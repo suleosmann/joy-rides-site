@@ -3,17 +3,17 @@
   background-color: #f8f9fa;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap; /* Wrap footer items for smaller screens */
 }
-a {
-  text-decoration: none;
-  color: #000;
-}
+
 .footer-section {
   display: flex;
   flex-direction: column;
+  text-align: left; /* Align text to the left */
+  margin-right: 190px;
 }
+
 .footer-logo img {
   width: 50px;
 }
@@ -23,32 +23,44 @@ a {
 .footer-section ul {
   list-style-type: none;
   padding: 0;
-  margin: 8px 3px;
+  margin: 8px 0;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
 }
 
 .footer-socials a {
   display: inline-block;
   margin-right: 8px;
+  text-align: left; /* Specifically align social links text to the left if needed */
 }
-
+a{
+  text-decoration: none;
+  color: #000;
+}
 .footer-section h4 {
   margin-bottom: 8px;
 }
 
 .footer-subscribe {
   display: flex;
+  align-items: center;
 }
 
 .footer-subscribe input {
-  padding: 8px;
+  padding: 12px;
   margin-right: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  padding-right: 90px;
+  background-color: #dedede;
 }
 
 .footer-subscribe button {
-  padding: 8px 12px;
-  background-color: #333;
+  padding: 13px 13px;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 4px;
@@ -57,4 +69,15 @@ a {
 
 .footer-subscribe button:hover {
   background-color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    justify-content: flex-start;
+  }
+  .footer-section {
+    margin-right: 0; /* Remove the margin on smaller screens */
+    margin-bottom: 20px; /* Add space below each section on smaller screens */
+  }
 }

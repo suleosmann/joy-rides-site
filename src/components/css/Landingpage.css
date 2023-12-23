@@ -47,36 +47,36 @@
 
 /* ProcessSteps.css */
 .process-container {
-    text-align: center;
-    margin: 50px 0;
-  }
-  
-  .steps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px; /* Adjust gap size as needed */
-  }
-  
-  .step {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .icon {
-    border: 1px solid #000;
-    padding: 20px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    /* You may want to specify a fixed size for your icons */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .step p {
-    margin-top: 0;
-    font-weight: bold;
-  }
-  
+  text-align: center;
+  margin: 50px 0;
+  margin-top: 100px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px; /* Adjust gap size as needed */
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  border: 1px solid #000;
+  padding: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  /* You may want to specify a fixed size for your icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step p {
+  margin-top: 0;
+  font-weight: bold;
+}
