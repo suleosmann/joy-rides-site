@@ -1,0 +1,76 @@
+body{
+    max-width: 1530px;
+}
+.Introduction-container {
+    max-width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.intro {
+    border-bottom: thick double #32a1ce;
+    font-size: larger;
+    font-weight: 300;
+}
+
+#to-home{
+    bottom: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: x-large;
+    color: #fff;
+    background-color: #000;
+}
+
+#to-home:hover{
+    background-color: #333;
+}
+
+#contact-us{
+    color: #32a1ce;
+    padding-top: 20px;
+    
+}
+
+#contact-us:hover{
+    border-bottom: solid #32a1ce ;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .flex-wrap {
+    border: 1px solid #ddd; /* Add border or styling as needed */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .briefcase {
+    width: 60px;
+  }
+
+  /* .position h3::before {
+    content: url("https://static.vecteezy.com/system/resources/thumbnails/007/636/934/small/suitcase-icon-design-template-free-vector.jpg");
+    width: 5px ;
+    
+    
+    /* Additional styling for the pseudo-element if needed */
+   */
+
+  .image-wrap{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .team-content{
+    border-bottom: solid #bdb9b9 ;
+  }
