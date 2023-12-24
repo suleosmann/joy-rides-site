@@ -1,66 +1,84 @@
+/* Landingpage.css */
+
 .main-header {
   font-size: 45px;
 }
-/* This styles the container holding the buttons */
+
 .main-container {
-  display: flex; /* Use flexbox to center children */
-  justify-content: center; /* Center children horizontally */
-  align-items: center; /* Center children vertically */
-  min-height: 10vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
 }
 
-/* This styles the direct parent of the buttons */
 .main-button {
-  display: flex; /* Use flexbox to align buttons */
-  gap: 10px; /* Add space between buttons */
-  /* Add any additional styling for the button container here */
+  display: flex;
+  gap: 10px;
 }
 
-.local-button,
-.International-button {
-  padding: 20px 50px; /* Add padding inside the buttons */
-  border: none; /* Remove the default border */
-  font-size: 16px; /* Set the font size */
-  border-radius: 9px; /* Rounded corners */
-  cursor: pointer; /* Change mouse cursor on hover */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+.local-button, .International-button {
+  padding: 20px 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .local-button {
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
+  background-color: #000;
+  color: #fff;
 }
 
 .local-button:hover {
-  background-color: #333; /* Slightly lighter black on hover */
+  background-color: #333;
 }
 
 .International-button {
-  background-color: #fff; /* White background */
-  color: #000; /* Black text */
-  border: 1px solid #000; /* Black border */
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .International-button:hover {
-  background-color: #eee; /* Light grey background on hover */
+  background-color: #eee;
+}
+
+/* Additional CSS for centering the image and text */
+.center-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.centered-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-text p {
+  margin: 10px 0;
 }
 
 /* ProcessSteps.css */
 .process-container {
   text-align: center;
   margin: 50px 0;
-  margin-top: 50px;
 }
-.process-container h2{
+
+.process-container h2 {
   margin-bottom: 50px;
   font-size: 30px;
   text-transform: capitalize;
 }
+
 .steps {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px; /* Adjust gap size as needed */
+  gap: 70px;
 }
 
 .step {
@@ -74,10 +92,6 @@
   padding: 60px;
   border-radius: 50%;
   margin-bottom: 10px;
-  /* You may want to specify a fixed size for your icons */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 3rem;
 }
 
