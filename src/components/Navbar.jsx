@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#">International Stock</a>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
-          <a href="#">Frequently asked questions</a>
+          <Link to="/FAQSection">Frequently asked questions</Link>
         </ul>
       </nav>
     </div>

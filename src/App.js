@@ -5,6 +5,7 @@ import Landingpage from "./components/Landingpage";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import FAQSection from "./components/FAQSection";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/FAQSection" element={<FAQSection />} />
         </Routes>
         <Footer />
       </div>
