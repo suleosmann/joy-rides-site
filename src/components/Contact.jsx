@@ -1,54 +1,40 @@
-import React from "react";
-import "./css/Contact.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
-import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
-import 'font-awesome/css/font-awesome.min.css';
+import React from 'react';
+import './css/Contact.css'; // Make sure the path to your CSS file is correct
 
-const Contact =()=>{
-    return(
-        <div className="contact" >
-            <div className="contact-wrap">
-            <div className="intro-to-contact">
-                <h1>Get in touch with us!</h1>
-                <div className="intro-logo">
-                <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                <FontAwesomeIcon icon="fa-brands fa-square-instagram" />  
-                <FontAwesomeIcon icon="fa-brands fa-youtube" />
-                <FontAwesomeIcon icon="fa-brands fa-square-twitter" />
-                </div>
-            </div>
-            <div className="form-wrap">
-                <form className="structure">
-                    <div className="name">
-                        <label htmlFor="your-name" className="details">Name</label><br></br>
-                        <input type="text" placeholder="Your Name"></input>
+const Contact = () => {
+  // Function to handle form submission
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Add form submission logic here
+    console.log('Form data submitted');
+  };
 
-                    </div>
-                    <div className="email">
-                        <label htmlFor="your-email" className="details">Email</label><br></br>
-                        <input type="text" placeholder="Your Email"></input>
-                    </div>
-                    <div className="number">
-                        <label htmlFor="your-number" className="details">Email</label><br></br>
-                        <input type="number" placeholder="Your Phone Number"></input>
-                    </div>
-                    <div className="message">
-                        <label htmlFor="your-message" className="details">Message</label><br></br>
-                        <textarea rows = "5" cols = "" name = "description">
-                            Your Message
-                        </textarea>
-                    </div>
-                    <div className="submit">
-                        <submit>
-                            <button>Send Message</button>
-                        </submit>
-                    </div>
-                </form>
-            </div>
-            </div>
+  return (
+    <div className="contact-container">
+      {/* Floating icons */}
+      <div className="floating-icon icon-top-left">D</div>
+      <div className="floating-icon icon-top-right">X</div>
+      <div className="floating-icon icon-bottom-left">@</div>
+      <div className="floating-icon icon-bottom-right">#</div>
+
+      <h2>Get in Touch</h2>
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="form-group">
+          <input type="text" placeholder="Your Name" required />
         </div>
-    )
-}
+        <div className="form-group">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div className="form-group">
+          <input type="tel" placeholder="Your Phone Number" required />
+        </div>
+        <div className="form-group">
+          <textarea placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" className="send-button">Send Message</button>
+      </form>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

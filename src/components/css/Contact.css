@@ -1,56 +1,76 @@
-.contact {
-    background-color: rgba(127, 255, 212, 0.4); /* Aquamarine with opacity 0.4 */
-    height: 1200px; /* Set the height of the container to full viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-wrap {
-    background-color: white; /* White background for the form */
-    padding: 20px; /* Add padding to the form */
-    width: 400px; /* Set the width of the form */
-    height: 1100px; /* Set the height of the form */
-    border-radius: 10px; /* Add rounded corners to the form */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  }
-  
-  .intro-to-contact {
-    text-align: center; /* Center text in the intro */
-  }
-  
-  .form-wrap {
-    margin-top: 20px; /* Add space between the intro and the form */
-  }
-  
-  .structure {
-    display: grid;
-    gap: 25px;
-  }
+/* ContactForm.css */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  position: relative; /* For positioning icons */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ddd;
+}
 
-  .details{
-    text-align: left;
-    font-weight: 500;
-  }
+.contact-container h2 {
+  margin-bottom: 30px;
+}
 
-  .structure input{
-    border-radius: 5px;
-    width: 200px;
-    height: 30px;
-  }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
 
-  textarea{
-    border-radius: 5px;
-    width: 200px;
-    height: 80px;
-  }
-  
-  .submit button{
-    border-radius: 20px;
-    width: 150px;
-    height: 50px;
-    color: #fff;
-    background-color: #000;
-  }
-  /* Add any additional styling as needed */
-  
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #333;
+}
+
+/* Floating icons */
+.floating-icon {
+  position: absolute;
+  color: #ddd; /* Placeholder color for icons */
+  font-size: 2rem; /* Placeholder size for icons */
+}
+
+.icon-top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.icon-top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.icon-bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.icon-bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
