@@ -12,11 +12,12 @@ const Navbar = () => {
           <h1>Joy & Rides</h1>
         </div>
         <ul>
-          <a href="#">Vehicles in Kenya</a>
+          <Link to="/VehiclesInKenya">Vehicles in Kenya</Link>
           <a href="#">International Stock</a>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/FAQSection">Frequently asked questions</Link>
+          
         </ul>
       </nav>
     </div>

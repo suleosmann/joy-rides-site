@@ -1,0 +1,87 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+#form{
+   width: 100%; 
+   height:100%;
+   display: inline-block;
+}
+#vh{
+    display: flex;
+}
+.box{
+    height: 500px;
+    border: solid grey;
+    border-radius:  10px;
+    padding: 5px;
+}
+
+.car-content h2::before{
+    content: "2019";
+    font-weight: 100;
+    font-size: 20px;
+    background-color: aliceblue;
+    margin-right: 5px;
+}
+
+.car-content{
+    border-bottom: solid rgb(241, 236, 236);
+}
+
+.span-details{
+    background-color: rgb(197, 194, 194);
+    margin: 20px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.price-details{
+    padding-top: 20px;
+}
+
+.available-green{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: aquamarine;
+    
+}
+
+.black-span{
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .price-details{
+        display: flex;
+        padding-bottom: 5px;
+    }
+    .available-green{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+}
