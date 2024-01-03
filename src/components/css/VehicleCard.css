@@ -1,0 +1,26 @@
+/* VehicleCard.css */
+.vehicle-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px; /* or any other width */
+  }
+  
+  .vehicle-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .vehicle-details {
+    padding: 8px;
+  }
+  
+  /* GridContainer.css */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  

@@ -1,0 +1,242 @@
+[
+  {
+      "id": 1,
+      "make": "Rolls Royce",
+      "model": "Cullinan",
+      "year": "2022",
+      "price": "KES 0",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 2,
+      "make": "Ford",
+      "model": "Mustang GT",
+      "year": "2018",
+      "price": "KES 10,698,653",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 3,
+      "make": "Mazda",
+      "model": "CX-3 1.5D XD-L",
+      "year": "2017",
+      "price": "KES 2,148,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 4,
+      "make": "Lexus",
+      "model": "RX450h/SUNROOF",
+      "year": "2017",
+      "price": "KES 6,550,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 5,
+      "make": "Lexus",
+      "model": "NX200t F-SPORT/SUNROOF",
+      "year": "2017",
+      "price": "KES 4,785,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 6,
+      "make": "Porsche",
+      "model": "Cayenne 'GTS'",
+      "year": "2017",
+      "price": "KES 9,999,999",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 7,
+      "make": "BMW",
+      "model": "X5M COMPETITION",
+      "year": "2022",
+      "price": "KES 27,570,525",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 8,
+      "make": "Audi",
+      "model": "Q7",
+      "year": "2019",
+      "price": "KES 8,300,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 9,
+      "make": "Mercedes-Benz",
+      "model": "GLE Coupe",
+      "year": "2020",
+      "price": "KES 15,000,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 10,
+      "make": "Tesla",
+      "model": "Model X",
+      "year": "2021",
+      "price": "KES 14,500,000",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 11,
+      "make": "Make 11",
+      "model": "Model 11",
+      "year": "Year 11",
+      "price": "Price 11",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 12,
+      "make": "Make 12",
+      "model": "Model 12",
+      "year": "Year 12",
+      "price": "Price 12",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 13,
+      "make": "Make 13",
+      "model": "Model 13",
+      "year": "Year 13",
+      "price": "Price 13",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 14,
+      "make": "Make 14",
+      "model": "Model 14",
+      "year": "Year 14",
+      "price": "Price 14",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 15,
+      "make": "Make 15",
+      "model": "Model 15",
+      "year": "Year 15",
+      "price": "Price 15",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 16,
+      "make": "Make 16",
+      "model": "Model 16",
+      "year": "Year 16",
+      "price": "Price 16",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 17,
+      "make": "Make 17",
+      "model": "Model 17",
+      "year": "Year 17",
+      "price": "Price 17",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 18,
+      "make": "Make 18",
+      "model": "Model 18",
+      "year": "Year 18",
+      "price": "Price 18",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 19,
+      "make": "Make 19",
+      "model": "Model 19",
+      "year": "Year 19",
+      "price": "Price 19",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 20,
+      "make": "Make 20",
+      "model": "Model 20",
+      "year": "Year 20",
+      "price": "Price 20",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 21,
+      "make": "Make 21",
+      "model": "Model 21",
+      "year": "Year 21",
+      "price": "Price 21",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 22,
+      "make": "Make 22",
+      "model": "Model 22",
+      "year": "Year 22",
+      "price": "Price 22",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 23,
+      "make": "Make 23",
+      "model": "Model 23",
+      "year": "Year 23",
+      "price": "Price 23",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 24,
+      "make": "Make 24",
+      "model": "Model 24",
+      "year": "Year 24",
+      "price": "Price 24",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 25,
+      "make": "Make 25",
+      "model": "Model 25",
+      "year": "Year 25",
+      "price": "Price 25",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 26,
+      "make": "Make 26",
+      "model": "Model 26",
+      "year": "Year 26",
+      "price": "Price 26",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 27,
+      "make": "Make 27",
+      "model": "Model 27",
+      "year": "Year 27",
+      "price": "Price 27",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 28,
+      "make": "Make 28",
+      "model": "Model 28",
+      "year": "Year 28",
+      "price": "Price 28",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 29,
+      "make": "Make 29",
+      "model": "Model 29",
+      "year": "Year 29",
+      "price": "Price 29",
+      "image": "/images/range-rover.png"
+  },
+  {
+      "id": 30,
+      "make": "Make 30",
+      "model": "Model 30",
+      "year": "Year 30",
+      "price": "Price 30",
+      "image": "/images/range-rover.png"
+  }
+]
